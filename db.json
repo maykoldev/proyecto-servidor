@@ -11,6 +11,107 @@
     {
       "nombre": "Yois",
       "id": 3
+    },
+    {
+      "nombre": "jose",
+      "id": 4
+    }
+  ],
+  "tareas": [
+    {
+      "text": "prueba",
+      "nombre": "maria",
+      "id": 1
+    },
+    {
+      "text": "guardar todo en git",
+      "nombre": "maria",
+      "id": 2
+    },
+    {
+      "text": "nueva tarea",
+      "nombre": "maykol",
+      "id": 3
+    },
+    {
+      "text": "guardar todo en git",
+      "nombre": "jose",
+      "id": 4
+    },
+    {
+      "text": "prueba",
+      "nombre": "jose",
+      "id": 5
+    },
+    {
+      "text": "prueba",
+      "nombre": "jose",
+      "id": 6
+    },
+    {
+      "text": "nueva tarea",
+      "nombre": "maykol",
+      "id": 7
+    },
+    {
+      "text": "casa",
+      "nombre": "maykol",
+      "id": 8
+    },
+    {
+      "text": "prueba",
+      "nombre": "maykol",
+      "id": 9
+    },
+    {
+      "text": "nueva tarea",
+      "nombre": "maykol",
+      "id": 10
+    },
+    {
+      "text": "casa",
+      "nombre": "maykol",
+      "id": 11
+    },
+    {
+      "text": "nueva tarea",
+      "nombre": "maykol",
+      "id": 12
+    },
+    {
+      "text": "ca",
+      "nombre": "maykol",
+      "id": 13
+    },
+    {
+      "text": "maykol",
+      "nombre": "maykol",
+      "id": 14
+    },
+    {
+      "text": "mayol",
+      "nombre": "maykol",
+      "id": 15
+    },
+    {
+      "text": "mayol",
+      "nombre": "maykol",
+      "id": 16
+    },
+    {
+      "text": "mayol",
+      "nombre": "jose",
+      "id": 17
+    },
+    {
+      "text": "mayol",
+      "nombre": "jose",
+      "id": 18
+    },
+    {
+      "text": "mayol",
+      "nombre": "jose",
+      "id": 19
     }
   ]
 }
