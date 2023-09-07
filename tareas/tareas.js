@@ -37,14 +37,45 @@ const obtenerLista = async()=> {
     userList.forEach(i=>{
         const listado = document.createElement('li');
         listado.innerHTML =`
-        <li class="todo-item">
+        <li id=${i.id} class="todo-item">
         <button class="delete-btn">&#10006;</button>
-        ${i.text}
-        <button class="check-btn">&#10003;</button>
+        <p class="${i.cheked ? 'check-todo':false}">${i.text}</p>
+        <button  class="check-btn">&#10003;</button>
       </li>
         
         ` 
         lista.appendChild(listado);
     })
-
 }
+obtenerLista();
+cerrarBtn.addEventListener("click", async => {
+    localStorage.removeItem('user');
+    window.location.href = "../home/index.html";
+})
+
+lista.addEventListener("click", async e=>{
+    if(e.target.classList.contains('delete-btn')){
+        //console.log('eliminar')
+        const id = e.target.parentElement.id;
+        //console.log(id)
+        await fetch (`http://localhost:3000/tareas/${id}`,{
+            method:'DELETE'
+            });
+            e.target.parentElement.remove()
+    }else if(e.target.classList.contains('check-btn')){
+        //console.log('check')
+        const id = e.target.parentElement.id;
+        //console.log(id)
+        const respuestaJSON = await fetch (`http://localhost:3000/tareas/${id}`,{
+        method:"PATCH",
+        headers:{
+            'Content-Type':'application/json'
+        },
+        body: JSON.stringify({cheked:e.target.parentElement.classList.contains('check-todo')?false:true})
+        });
+
+        const response= await respuestaJSON.json();
+        console.log(response)
+        e.target.parentElement.classList.toggle('check-todo')
+    }
+})

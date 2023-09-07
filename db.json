@@ -29,14 +29,10 @@
       "id": 2
     },
     {
-      "text": "nueva tarea",
-      "nombre": "maykol",
-      "id": 3
-    },
-    {
       "text": "guardar todo en git",
       "nombre": "jose",
-      "id": 4
+      "id": 4,
+      "cheked": true
     },
     {
       "text": "prueba",
@@ -47,56 +43,6 @@
       "text": "prueba",
       "nombre": "jose",
       "id": 6
-    },
-    {
-      "text": "nueva tarea",
-      "nombre": "maykol",
-      "id": 7
-    },
-    {
-      "text": "casa",
-      "nombre": "maykol",
-      "id": 8
-    },
-    {
-      "text": "prueba",
-      "nombre": "maykol",
-      "id": 9
-    },
-    {
-      "text": "nueva tarea",
-      "nombre": "maykol",
-      "id": 10
-    },
-    {
-      "text": "casa",
-      "nombre": "maykol",
-      "id": 11
-    },
-    {
-      "text": "nueva tarea",
-      "nombre": "maykol",
-      "id": 12
-    },
-    {
-      "text": "ca",
-      "nombre": "maykol",
-      "id": 13
-    },
-    {
-      "text": "maykol",
-      "nombre": "maykol",
-      "id": 14
-    },
-    {
-      "text": "mayol",
-      "nombre": "maykol",
-      "id": 15
-    },
-    {
-      "text": "mayol",
-      "nombre": "maykol",
-      "id": 16
     },
     {
       "text": "mayol",
@@ -112,6 +58,21 @@
       "text": "mayol",
       "nombre": "jose",
       "id": 19
+    },
+    {
+      "text": "ca",
+      "nombre": "jose",
+      "id": 20
+    },
+    {
+      "text": "csasa",
+      "nombre": "jose",
+      "id": 21
+    },
+    {
+      "text": "mayol",
+      "nombre": "jose",
+      "id": 22
     }
   ]
 }
